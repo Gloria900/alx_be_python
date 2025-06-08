@@ -1,14 +1,14 @@
-def perform_operation(num1,num2,operation):
-    if operation=="add":
-        return num1+num2
-    elif operation=="subtract":
-        return num1-num2
-    elif operation=="multiply":
-        return num1*num2
-    elif operation=="divide":
-        if num1==0:
+def perform_operation(num1, num2, operation):
+    if operation == "add":
+        return num1 + num2
+    elif operation == "subtract":
+        return num1 - num2
+    elif operation == "multiply":
+        return num1 * num2
+    elif operation == "divide":
+        if num1 == 0:
             return("you cannot divide by zero!")
-        elif num2==0:
+        elif num2 == 0:
             return("you cannot divide by zero!")
         else:
-            return num1/num2
+            return num1 / num2
